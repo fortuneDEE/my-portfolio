@@ -14,7 +14,7 @@ const NavBar = () => {
                   <li className='cursor-pointer text-md mr-10 dark:text-white'>Services</li>
                   <li className='cursor-pointer text-md mr-10 dark:text-white'>Projects</li>
                   <li className='cursor-pointer text-md mr-10 dark:text-white'>Blog</li>
-                  <li className='cursor-pointer text-md mr-20 dark:text-white'>Contact</li>
+                  <li className='cursor-pointer text-md mr-20 dark:text-white hover:bg-teal-400'>Contact</li>
 
                   <li>
                       <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-white'/>
