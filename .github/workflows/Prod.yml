@@ -26,6 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm install
-    - run: run npm build
-    - run: run npm test
+    - run: vite install
+    - run: vite build
+    - run: vite preview
