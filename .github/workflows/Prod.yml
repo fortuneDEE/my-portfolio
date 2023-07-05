@@ -25,7 +25,7 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm run dev
-    - run: npm run build
-    - run: npm run test
+        cache: 'vite'
+    - run: vite
+    - run: vite build
+    - run: vite preview
