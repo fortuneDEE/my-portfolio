@@ -1,4 +1,3 @@
-// import NavBar from "./Components/Nav";
 import Main from "./Components/Hero";
 import Services from "./Components/Services";
 import PortFolio from "./Components/PortFolio";
