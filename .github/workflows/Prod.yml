@@ -26,7 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm i vite@4.4.2
+    - run: npm ci
     - run: vite
     - run: vite build && vite export
     - run: vite preview
