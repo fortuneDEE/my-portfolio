@@ -17,6 +17,9 @@ const PortFolio = () => {
             <div className='basis-1/3 flex-1'>
                 <img src={Design} alt=""/>
             </div>
+            <div>
+                <span>You can access my other works here</span>
+            </div>
             <div className='basis-1/3 flex-1'>
                 <img src={Design} alt=""/>
             </div>
