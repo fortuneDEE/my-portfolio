@@ -13,12 +13,12 @@ function App() {
           <nav className='py-10 flex justify-between'>
               <h1 className='text-xl font-burtons dark:text-white'>CHIKA_CODES~</h1>
               <ul className='flex items-center'>
-              <a href="/" className="hover:decoration-teal-600"><li className='cursor-pointer text-md mr-10 dark:text-white'>Home</li></a>
+              {/* <a href="/" className="hover:decoration-teal-600"><li className='cursor-pointer text-md mr-10 dark:text-white'>Home</li></a>
                   <li className='cursor-pointer text-md mr-10 dark:text-white'>About</li>
                   <li className='cursor-pointer text-md mr-10 dark:text-white'>Services</li>
                   <li className='cursor-pointer text-md mr-10 dark:text-white'>Projects</li>
                   <li className='cursor-pointer text-md mr-10 dark:text-white'>Blog</li>
-                  <li className='cursor-pointer text-md mr-20 dark:text-white'>Contact</li>
+                  <li className='cursor-pointer text-md mr-20 dark:text-white'>Contact</li> */}
 
                   <li>
                       <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-white' />
