@@ -44,10 +44,10 @@ function App() {
                         </div>
                         <ul className="flex flex-col items-center justify-between min-h-[250px] ">
                           <li className="border-b border-gray-400 my-8 uppercase ">
-                            <a href="/about">About</a>
+                            <a href="/Hero">About</a>
                           </li>
                           <li className="border-b border-gray-400 my-8 uppercase ">
-                            <a href="/portfolio">Portfolio</a>
+                            <a href="/Services">Portfolio</a>
                           </li>
                           <li className="border-b border-gray-400 my-8 uppercase ">
                             <a href="/contact">Contact</a>
@@ -64,10 +64,10 @@ function App() {
 
                     <ul className="DESKTOP-MENU hidden space-x-8 lg:flex dark:text-white">
                       <li className="mt-2">
-                        <a href="/about">About</a>
+                        <a href="/Hero">About</a>
                       </li>
                       <li className="mt-2">
-                        <a href="/portfolio">Portfolio</a>
+                        <a href="/Services">Portfolio</a>
                       </li>
                       <li className="mt-2">
                         <a href="/contact">Contact</a>
@@ -81,24 +81,25 @@ function App() {
                     </ul>
                 
                   <style>{`
-                  .hideMenuNav {
-                    display: none;
-                  }
-                  .showMenuNav {
-                    display: block;
-                    position: absolute;
-                    width: 100%;
-                    height: 100vh;
-                    top: 0;
-                    left: 0;
-                    background: white;
-                    z-index: 10;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-evenly;
-                    align-items: center;
-                  }
-                `}</style>
+                    .hideMenuNav {
+                      display: none;
+                    }
+                    .showMenuNav {
+                      display: block;
+                      position: absolute;
+                      width: 100%;
+                      height: 100vh;
+                      top: 0;
+                      left: 0;
+                      background: white;
+                      z-index: 10;
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: space-evenly;
+                      align-items: center;
+                    }
+                `}
+                </style>
                 </div>
           </nav>
         </div>
