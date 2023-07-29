@@ -55,7 +55,7 @@ function App() {
                           <li>
                             <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mb-6' />
                           </li>
-                          <a href='https://docs.google.com/document/d/1L2CjDej60KV6Nkh6xhbE1gSpPPQX02l2X9QPJwFsvE4/edit' className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-2'>
+                          <a href='https://docs.google.com/document/d/1L2CjDej60KV6Nkh6xhbE1gSpPPQX02l2X9QPJwFsvE4/edit' target='_blank' className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-2'>
                             <li>Resume</li>
                           </a>
                         </ul>
