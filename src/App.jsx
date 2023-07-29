@@ -14,8 +14,8 @@ function App() {
               <h1 className='text-md font-burtons dark:text-white'>CHIKA_CODES~</h1>
               {/* <ul className='flex items-center'> */}
                 <div className="flex items-center justify-between">
-                <li>
-                      <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mb-6 mx-4 dark:text-white' />
+                <li className="list-none mt-6">
+                      <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mb-6 mx-4 dark:text-white lg:hidden' />
                 </li>
                     <section className="MOBILE-MENU flex lg:hidden">
                       <div

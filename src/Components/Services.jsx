@@ -6,8 +6,8 @@ import Learn from '../assets/images/learn.png';
 const Services = () => {
   return (
     <div className='text-center p-10 dark:bg-gray-900'>
-        <h3 className='text-3xl py-1 text-teal-600 lg:pt-20'>About Me</h3>
-        <p className='text-md p-2 text-justify leading-8 text-gray-800 dark:text-white'>
+        <h3 className='text-4xl py-6 text-teal-600 lg:pt-20'>About Me</h3>
+        <p className='text-md py-6 text-justify leading-8 text-gray-800 dark:text-white'>
         Hello! I'm Fortune Ellah, a passionate and creative <span className=' text-teal-500'>Frontend Developer</span> with two years of hands-on experience in crafting delightful web experiences. My journey in the world of web development started with a fascination for the ever-evolving digital landscape, and since then, I've been on an exciting mission to bring ideas to life through HTML, CSS, JavaScript, and modern frameworks like <span className=' text-teal-500'>React </span> and <span className=' text-teal-500'>TailwindCSS.</span> As a frontend developer, I thrive on turning designs into clean, intuitive, and user-friendly interfaces. With a keen eye for detail and a passion for responsive design practices, I take pride in ensuring that every website I create provides an exceptional user experience across various devices and screen sizes.
          My approach to development is grounded in the Agile methodology, where collaboration, adaptability, and iterative improvements play a pivotal role in delivering top-notch web solutions. I value effective communication with team members and stakeholders, as it fosters a creative and productive work environment.
         </p>
