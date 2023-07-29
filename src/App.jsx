@@ -10,7 +10,7 @@ function App() {
     <>
     <div className={darkMode ? 'dark' : ""} >
        <div className=' min-h-fit bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
-          <nav className='py-10 flex items-center justify-between'>
+          <nav className='py-4 flex items-center justify-between'>
               <h1 className='text-md font-burtons dark:text-white'>CHIKA_CODES~</h1>
               {/* <ul className='flex items-center'> */}
                 <div className="flex items-center justify-between">

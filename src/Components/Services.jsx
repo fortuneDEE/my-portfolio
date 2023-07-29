@@ -1,6 +1,7 @@
-import Code from '../assets/images/code.jpg';
-import Consult from '../assets/images/consulting.jpg';
-import Design from '../assets/images/design.jpg';
+import Code from '../assets/images/code.png';
+import Consult from '../assets/images/consult-1.png';
+import Design from '../assets/images/design.png';
+import Learn from '../assets/images/learn.png';
 
 const Services = () => {
   return (
@@ -28,7 +29,7 @@ const Services = () => {
             </div>
 
             <div className='text-center shadow-lg p-10  rounded-xl my-10 lg:h-full dark:bg-teal-600'>
-                <img src={Design} alt='' className='w-1/2 h-1/2 mx-auto'/>
+                <img src={Design} alt='' className='w-full h-1/2 mx-auto'/>
                 <h3 className='text-lg font-medium pt-8 pb-2'>
                 Responsive Design
                 </h3>
@@ -40,7 +41,7 @@ const Services = () => {
             </div>
 
             <div className='text-center shadow-lg p-10  rounded-xl my-10 lg:h-full dark:bg-teal-600'>
-                <img src={Design} alt='' className='w-1/2 h-1/2 mx-auto'/>
+                <img src={Consult} alt='' className='w-1/2 h-1/2 mx-auto'/>
                 <h3 className='text-lg font-medium pt-8 pb-2'>
                 Code Optimization and Performance
                 </h3>
@@ -52,7 +53,7 @@ const Services = () => {
             </div>
 
             <div className='text-center shadow-lg p-10 flex-1 rounded-xl my-10 lg:h-full dark:bg-teal-600'>
-                <img src={Design} alt='' className='w-1/2 h-1/2 mx-auto'/>
+                <img src={Learn} alt='' className='w-1/2 h-1/2 mx-auto'/>
                 <h3 className='text-lg font-medium pt-8 pb-2'>
                 Continuous Learning and Growth
                 </h3>
