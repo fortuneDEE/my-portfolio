@@ -10,18 +10,21 @@ function App() {
     <>
     <div className={darkMode ? 'dark' : ""} >
        <div className=' min-h-fit bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
-          <nav className='py-10 flex justify-between'>
+          <nav className='py-10 flex items-center justify-between'>
               <h1 className='text-md font-burtons dark:text-white'>CHIKA_CODES~</h1>
               {/* <ul className='flex items-center'> */}
                 <div className="flex items-center justify-between">
+                <li>
+                      <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mb-6 mx-4 dark:text-white' />
+                </li>
                     <section className="MOBILE-MENU flex lg:hidden">
                       <div
                         className="HAMBURGER-ICON space-y-2"
                         onClick={() => setIsNavOpen((prev) => !prev)}
                       >
-                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600 dark:bg-white"></span>
+                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600 dark:bg-white"></span>
+                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600 dark:bg-white"></span>
                       </div>
 
                       <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
@@ -52,9 +55,7 @@ function App() {
                           <li className="border-b border-gray-400 my-8 uppercase ">
                             <a href="/contact">Contact</a>
                           </li>
-                          <li>
-                            <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mb-6' />
-                          </li>
+                         
                           <a href='https://docs.google.com/document/d/1L2CjDej60KV6Nkh6xhbE1gSpPPQX02l2X9QPJwFsvE4/edit' target='_blank' className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-2'>
                             <li>Resume</li>
                           </a>
