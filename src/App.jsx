@@ -7,7 +7,7 @@ function App() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
   return (
-    <>
+    
     <div className={darkMode ? 'dark' : ""} >
        <div className=' min-h-fit bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
           <nav className='py-4 flex items-center justify-between'>
@@ -47,7 +47,7 @@ function App() {
                         </div>
                         <ul className="flex flex-col items-center justify-between min-h-[250px] ">
                           <li className="border-b border-gray-400 my-8 uppercase ">
-                            <a href="/Hero">About</a>
+                            <a href="/Main">About</a>
                           </li>
                           <li className="border-b border-gray-400 my-8 uppercase ">
                             <a href="/Services">Portfolio</a>
@@ -110,7 +110,7 @@ function App() {
       <Services/>
       
     </div>
-    </>
+    
   )
 }
 

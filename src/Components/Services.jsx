@@ -1,5 +1,5 @@
 import Code from '../assets/images/code.png';
-import Consult from '../assets/images/consult-1.png';
+import Consult from '../assets/images/consult.png';
 import Design from '../assets/images/design.png';
 import Learn from '../assets/images/learn.png';
 
@@ -17,15 +17,11 @@ const Services = () => {
         <div className='gap-20 justify-center  lg:grid lg:grid-cols-2  dark:text-white'>
 
             <div className='text-center shadow-lg p-10  rounded-xl my-10 lg:h-full dark:bg-teal-600'>
-                <img src={Code} alt='' className='w-1/2 h-1/2 mx-auto'/>
+                <img src={Code} alt='' className='w-full h-1/2 mx-auto'/>
                 <h3 className='text-lg font-medium pt-8 pb-2'>
                 Web Development and Design
                 </h3>
                 <p className='py-2 text-justify'>From concept to implementation, I specialize in crafting visually stunning and highly functional websites that align perfectly with your brand and business goals. By combining HTML, CSS, and JavaScript, I create seamless and interactive user interfaces that captivate visitors and keep them engaged.</p>
-                {/* <h4 className='py-4 text-teal-600'>Designs i used</h4>
-                <p className='py-1 text-teal-800'>React</p>
-                <p className='py-1 text-teal-800'>TypeScript</p>
-                <p className='py-1 text-teal-800'>TailwindCSS</p> */}
             </div>
 
             <div className='text-center shadow-lg p-10  rounded-xl my-10 lg:h-full dark:bg-teal-600'>
@@ -34,34 +30,25 @@ const Services = () => {
                 Responsive Design
                 </h3>
                 <p className='py-2 text-justify'>In today's mobile-centric world, I prioritize responsive design practices to ensure that your website looks stunning and functions flawlessly across various devices, including smartphones, tablets, and desktops.</p>
-                {/* <h4 className='py-4 text-teal-600'>Designs i used</h4>
-                <p className='py-1 text-teal-800'>React</p>
-                <p className='py-1 text-teal-800'>TypeScript</p>
-                <p className='py-1 text-teal-800'>TailwindCSS</p> */}
+              
             </div>
 
             <div className='text-center shadow-lg p-10  rounded-xl my-10 lg:h-full dark:bg-teal-600'>
-                <img src={Consult} alt='' className='w-1/2 h-1/2 mx-auto'/>
+                <img src={Consult} alt='' className='w-full h-1/2 mx-auto'/>
                 <h3 className='text-lg font-medium pt-8 pb-2'>
                 Code Optimization and Performance
                 </h3>
                 <p className='py-2 text-justify'>I believe in the importance of writing clean and optimized code. I ensure that your website not only looks impressive but also performs optimally, providing an exceptional user experience.</p>
-                {/* <h4 className='py-4 text-teal-600'>Tools I used</h4>
-                <p className='py-1 text-teal-800'>React</p>
-                <p className='py-1 text-teal-800'>TypeScript</p>
-                <p className='py-1 text-teal-800'>TailwindCSS</p> */}
+            
             </div>
 
             <div className='text-center shadow-lg p-10 flex-1 rounded-xl my-10 lg:h-full dark:bg-teal-600'>
-                <img src={Learn} alt='' className='w-1/2 h-1/2 mx-auto'/>
+                <img src={Learn} alt='' className='w-full h-1/2 mx-auto'/>
                 <h3 className='text-lg font-medium pt-8 pb-2'>
                 Continuous Learning and Growth
                 </h3>
                 <p className='py-2 text-justify'>As a passionate learner, I continually seek out opportunities to expand my skillset and stay ahead of industry trends. By investing in my personal and professional growth, I strive to deliver cutting-edge solutions that exceed expectations.</p>
-                {/* <h4 className='py-4 text-teal-600'>Designs i used</h4>
-                <p className='py-1 text-teal-800'>React</p>
-                <p className='py-1 text-teal-800'>TypeScript</p>
-                <p className='py-1 text-teal-800'>TailwindCSS</p> */}
+               
             </div>
 
             
