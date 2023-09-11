@@ -14,7 +14,7 @@ const Main = () => {
                 Frontend Developer
             </h3>
             <div className='mb-4'>
-            <a href="#" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-2 mx-6 rounded-md '>
+            <a href='/service' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-2 mx-6 rounded-md '>
                 See my works
             </a>
             {/* <BsArrowUpRight className='text-center absolute top-0 left-20 right-20'/> */}
