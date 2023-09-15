@@ -9,13 +9,13 @@ const Services = () => {
         
         <div className='gap-20 justify-center  lg:grid lg:grid-cols-2  dark:text-white'>
 
-            <div className='text-center shadow-lg p-10  rounded-xl my-10 lg:h-full dark:bg-teal-600'>
+            <div className='text-center shadow-lg p-10  rounded-xl my-10 lg:h-full dark:bg-gradient-to-r from-cyan-500 to-teal-500'>
                 <img src={Code} alt='' className='w-full h-1/2 mx-auto'/>
                 <h3 className='text-lg font-medium pt-8 pb-2'>
                 Web Redesign
                 </h3>
-                <p className='py-2 text-justify'></p>
-                <a href='/phasecurve.com' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-2 mx-6 rounded-md '>
+                <p className='py-12 px-14 mx-auto text-center'>Lorem ipsum </p>
+                <a href='/phasecurve.com' className='bg-gradient-to-r from-cyan-800 to-teal-500 text-white px-6 py-2 mx-6 rounded-md '>
                     View live website
                 </a>
             </div>
@@ -25,8 +25,8 @@ const Services = () => {
                 <h3 className='text-lg font-medium pt-8 pb-2'>
                 Web Redesign for an Accounting website 
                 </h3>
-                <p className='py-2 text-justify'></p>
-                <a href='/phasecurve.com' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-2 mx-6 rounded-md '>
+                <p className='py-12 px-14 mx-auto text-center'>Lorem ipsum </p>
+                <a href='/phasecurve.com' className='bg-gradient-to-r from-cyan-800 to-teal-500 text-white px-6 py-2 mx-6 rounded-md '>
                     View live website
                 </a>
             </div>
@@ -36,8 +36,8 @@ const Services = () => {
                 <h3 className='text-lg font-medium pt-8 pb-2'>
                 Website Design for Creatives
                 </h3>
-                <p className='py-2 text-justify'></p>
-                <a href='/phasecurve.com' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-2 mx-6 rounded-md '>
+                <p className='py-12 px-14 mx-auto text-center'>Lorem ipsum </p>
+                <a href='/phasecurve.com' className='bg-gradient-to-r from-cyan-800 to-teal-400 text-white px-6 py-2 mx-6 rounded-md '>
                     View live website
                 </a>
             </div>
@@ -47,8 +47,8 @@ const Services = () => {
                 <h3 className='text-lg font-medium pt-8 pb-2'>
                 Advice webapp built with react
                 </h3>
-                <p className='py-2 text-justify'></p>
-                <a href='/phasecurve.com' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-2 mx-6 rounded-md '>
+                <p className='py-12 px-14 mx-auto text-center'>Lorem ipsum </p>
+                <a href='/phasecurve.com' className='bg-gradient-to-r from-cyan-800 to-teal-500 text-white px-6 py-2 mx-6 rounded-md '>
                     View live website
                 </a>
             </div>

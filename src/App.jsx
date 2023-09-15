@@ -14,7 +14,7 @@ function App() {
         setDarkMode(prevDarkMode => !prevDarkMode)
     }
   return (
-    <div className={`h-full w-full mx-auto py-2 
+    <div className={`h-full w-full mx-auto
     ${darkMode ? "dark" : ""}`}
     >
       <BrowserRouter>
