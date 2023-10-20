@@ -3,7 +3,7 @@ import {BsArrowUpRight} from 'react-icons/bs'
 import Fortune from '../assets/images/Fortune.png'
 const Main = () => {
   return (
-    <div className='text-center p-10 md:flex md:flex-row md:justify-between md:px-15 lg:px-20 lg:pt-40 dark:bg-gray-900'>
+    <div className='text-center p-10 md:flex md:justify-evenly md:px-15 lg:px-20 lg:pt-40 dark:bg-gray-900'>
         <div className=''>
             <h2 className='text-5xl py-2 font-medium md:text-4xl lg:text-6xl dark:text-white'>Hi 👋 <br/>
             <span className='text-teal-600'>
@@ -25,7 +25,7 @@ const Main = () => {
                     <a href="https://www.linkedin.com/in/fortune-ellah/" target='_blank' rel="noreferrer"><AiFillLinkedin /></a>
             </div>
         </div>
-        <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 md:mt-0 lg:flex lg:mr-0'>
+        <div className='relative bg-gradient-to-b mx-auto from-teal-500 rounded-full w-80 h-80 mt-20 md:mx-0 md:mt-0 lg:flex lg:mr-0'>
             <img src={Fortune} alt='fortune ellah' className='w-64 mx-auto'/>
         </div>
     </div>
