@@ -16,7 +16,7 @@ const Footer = () => {
             <div >
             <ul className='no-underline'>
                 <li className='pb-3'>Quick Links</li>
-                <NavLink to="/" >
+                <NavLink to="/services" >
                 <li className='font-thin text-sm pb-2 border-gray-400 no-underline hover:underline decoration-teal-600 underline-offset-8 decoration-2'>Portfolio</li>
                 </NavLink>
                 <NavLink to="/about" >

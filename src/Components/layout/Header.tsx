@@ -50,7 +50,7 @@ const Header = (props) => {
                   <line x1="6" y1="6" x2="18" y2="18" />
                 </svg>
               </div>
-              <ul className="flex flex-col items-center justify-between min-h-[250px] no-underline">
+              <ul className="flex flex-col text-gray-900 items-center justify-between min-h-[250px] no-underline">
                 <li className="border-gray-400 my-8 font-thin uppercase no-underline hover:underline decoration-teal-600 underline-offset-8 decoration-2">
                   <a href="/about" className="active:bg-blue-500 font-thin">
                     About Me
