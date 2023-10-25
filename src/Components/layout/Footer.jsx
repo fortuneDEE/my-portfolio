@@ -6,8 +6,8 @@ import { AiOutlineMail} from 'react-icons/ai'
 const Footer = () => {
   return (
     <div className='py-4 h-full w-full items-center bg-[#f5f5f5] px-10 md:px-20 lg:px-40 dark:bg-gray-800 dark:text-[#f5f5f5]'>
-        <div className='py-4 md:flex justify-between '>
-            <div>
+        <div className='py-4 flex flex-wrap justify-between '>
+            <div className='hidden md:block'>
               <h1 className='text-xl'>
                 CHIKA_CODES~
               </h1>
